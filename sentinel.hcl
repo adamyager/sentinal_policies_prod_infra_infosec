@@ -1,6 +1,6 @@
 
 policy "change-window-hours" {
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "azurerm-restrict-vm-size" {
