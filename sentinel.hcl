@@ -4,7 +4,7 @@ policy "change-window-hours" {
 }
 
 policy "azurerm-restrict-vm-size" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "require-modules-from-pmr" {
@@ -12,5 +12,5 @@ policy "require-modules-from-pmr" {
 }
 
 policy "blacklist-resources.sentinel" {
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "advisory"
 }
